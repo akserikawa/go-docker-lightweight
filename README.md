@@ -17,7 +17,7 @@ We’re disabling cgo which gives us a static binary. We’re also setting the O
 
 Build the image
     
-    $ docker build -t golang-lightweight-image -f Dockerfile.scratch .
+    $ docker build -t golang-lightweight-image .
 
 Run the following command to see the output in your terminal
 
